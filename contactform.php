@@ -8,6 +8,8 @@
 */
 require_once("./include/fgcontactform.php");
 
+#Hey guys. This is Boxian!
+
 $formproc = new FGContactForm();
 
 
