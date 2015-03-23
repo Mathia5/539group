@@ -132,23 +132,6 @@
     </fieldset>
   </form>
 
-  <script type="text/javascript">
-  var frmvalidator = new Validator("539hw");
-
-  frmvalidator.addValidation("name","req");
-
-  frmvalidator.addValidation("em", "req");
-  frmvalidator.addValidation("em", "email", "Please enter a valid email.");
-
-  frmvalidator.addValidation("emc", "req");
-  frmvalidator.addValidation("emc", "email", "Please enter a valid email");
-  frmvalidator.addValidation("emc","eqelmnt=em", "Emails must match.");
-
-  frmvalidator.addValidation("zipcode", "req");
-  frmvalidator.addValidation("zipcode", "maxlen=5", "Zipcode must be exactly five digits.");
-  frmvalidator.addValidation("zipcode", "minlen=5", "Zipcode must be exactly five digits.");
-
-  </script>
 </body>
 </html>
   
