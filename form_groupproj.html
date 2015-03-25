@@ -17,32 +17,40 @@
     <legend>To register for the newsletter, please enter the following information:</legend>
 
   <form action = "thankyou.html" method = "get">
-  <fieldset>
+  <fieldset onchange="yourDetailCheck()">
     <legend>Your details</legend>
     <ol>
       <li>
         <label for="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="First and last name" required autofocus>
+        <input id="name" name="name" type="text" placeholder="First and last name" required autofocus >
+        <label id="CheckName"></label>
       </li>
       <li>
         <label for="email">Phone</label>
-        <input id="email" name="email" type="email" placeholder="Eg. 123-456-7890" required>
+        <input id="phone" name="email" type="email" placeholder="Eg. 123-456-7890" required>
+        <label id="CheckPhone"></label>
       </li>
       <li>
         <label for="phone">Email</label>
-        <input id="phone" name="phone" type="tel"  \d{3}[\-]\d{3}[\-]\d{4} placeholder="example@domain.com" required>
+        <input id="email" name="phone" type="tel"  \d{3}[\-]\d{3}[\-]\d{4} placeholder="example@domain.com" required>
+        <label id="CheckEmail"></label>
       </li>
       <li>
         <label for="phone">Confirm email</label>
-        <input id="phone" name="phone" type="tel"  \d{3}[\-]\d{3}[\-]\d{4} placeholder="example@domain.com" required>
+        <input id="EmailConfirm" name="phone" type="tel"  \d{3}[\-]\d{3}[\-]\d{4} placeholder="example@domain.com" required>
+        <label id="CheckEmailConfirm"></label>
       </li>
       <li>
         <label for="phone">Password</label>
-        <input id="phone" name="phone" type="tel"  \d{3}[\-]\d{3}[\-]\d{4} required>
+        <input id="password" name="phone" type="tel"  \d{3}[\-]\d{3}[\-]\d{4} required>
+        <label id="CheckPassword"></label>
+
       </li>
       <li>
         <label for="phone">Confirm password</label>
         <input id="phone" name="phone" type="tel"  \d{3}[\-]\d{3}[\-]\d{4} required>
+        <label id="CheckPasswordConfirm"></label>
+
       </li>
     </ol>
   </fieldset>
