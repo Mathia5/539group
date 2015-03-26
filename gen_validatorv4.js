@@ -23,9 +23,9 @@ var pw2=obj.children[1].children[5].children[1].value;
 
 
 // standard regex
-var nmRex=/\b[a-z\s{*}]+/;
-var phRex=/[0-9]{3}(\-|\s*)[0-9]{3}(\-|\s*)[0-9]{4}/;
-var emRex=/[\w-\._]+@[\w-_\.]+\.[\w-_]{2,4}/;
+var nmRex=/\b[a-z\s*]+/i;
+var phRex=/[0-9]{3}(\-|\s*)[0-9]{3}(\-|\s*)[0-9]{4}/i;
+var emRex=/[\w-\._]+@[\w-_\.]+\.[\w-_]{2,4}/i;
 
 
 
