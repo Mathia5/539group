@@ -1,111 +1,111 @@
 /* Form appearance */
 html, body, h1, form, fieldset, legend, ol, li {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body {
-	background: #f3f8b9;
-	color: #0715cd;
-	font-family: Verdana;
-	padding: .5%;
+    background: #f3f8b9;
+    color: #0715cd;
+    font-family: Verdana;
+    padding: .5%;
 }
 
 h1{
-	text-align: center;
-	padding: 2%;
+    text-align: center;
+    padding: 2%;
 }
 form{
-	background: #c4ffe9;
-	-moz-border-radius: 2%;
-	-webkit-border-radius: 2%;
-	border-radius: 2%;
-	padding: 2%;
-	margin-left:auto;
-   	margin-right:auto;
-   	width:75%;
+    background: #c4ffe9;
+    -moz-border-radius: 2%;
+    -webkit-border-radius: 2%;
+    border-radius: 2%;
+    padding: 2%;
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
 }
 
 
 /* Styled list items*/
- li {
-	border-width: 5%;
-	-moz-border-radius: 2%;
-	-webkit-border-radius: 2%;
-	border-radius: 2%;
-	list-style: none;
-	padding: 1% 2%;
-	margin-bottom: .5%;
-	font-size: 14px;
+li {
+    border-width: 5%;
+    -moz-border-radius: 2%;
+    -webkit-border-radius: 2%;
+    border-radius: 2%;
+    list-style: none;
+    padding: 1% 2%;
+    margin-bottom: .5%;
+    font-size: 14px;
 }
 
 form ol ol li {
-	background: none;
-	border: none;
-	float: left;
+    background: none;
+    border: none;
+    float: left;
 }
 
 legend#ftitle {
-	text-align: left;
-	padding-bottom: 4%;
-	font-size: 16px;
-	font-weight: bolder;
+    text-align: left;
+    padding-bottom: 4%;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 legend{
-	font-style: bold;
-	font-size: 18px;
-	text-align: center;
-	color: black;
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+    color: black;
 }
 
-button {
-	margin-left:auto;
-   	margin-right:auto;
-   	display: block;
-   	width: 100px;
-   	margin-top: 2%;
-   	padding: 1%;
+#signup-button {
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    width: 100px;
+    margin-top: 2%;
+    padding: 1%;
 }
 
 /*formatting for payment information*/
 form fieldset fieldset label {
-	background:none no-repeat left 50%;
-	line-height: 20px;
-	padding: 0 0 0 30px;
-	width: auto;
+    background:none no-repeat left 50%;
+    line-height: 20px;
+    padding: 0 0 0 30px;
+    width: auto;
 }
 form label[for=visa] {
-	background-image: url("img/visa.gif");
+    background-image: url("../images/visa.gif");
 }
 form label[for=amex] {
-	background-image: url("img/amex.gif");
+    background-image: url("../images/amex.gif");
 }
 form label[for=mastercard] {
-	background-image: url("img/mastercard.gif");
+    background-image: url("../images/mastercard.gif");
 }
 
 /*Separate styling for larger screens*/
 @media only screen and (min-width: 750px){
 
-form{
-	background: #c4ffe9;
-	-moz-border-radius: 2%;
-	-webkit-border-radius: 2%;
-	border-radius: 2%;
-	padding: 2%;
-	width: 50%;
-}
+    form{
+        background: #c4ffe9;
+        -moz-border-radius: 2%;
+        -webkit-border-radius: 2%;
+        border-radius: 2%;
+        padding: 2%;
+        width: 50%;
+    }
 
-legend{
-	font-style: bold;
-	font-size: 25px;
-	text-align: center;
-	color: black;
-}
+    legend{
+        font-style: bold;
+        font-size: 25px;
+        text-align: center;
+        color: black;
+    }
 
-li {
-	font-size: 18px;
-}
+    li {
+        font-size: 18px;
+    }
 
 }
 
