@@ -25,6 +25,11 @@ form{
     width:75%;
 }
 
+form fieldset {
+    border: double;
+    border-color: black;
+}
+
 
 /* Styled list items*/
 li {
@@ -102,7 +107,7 @@ form label[for=mastercard] {
         -webkit-border-radius: 2%;
         border-radius: 2%;
         padding: 2%;
-        width: 50%;
+        width: 60%;
     }
 
     legend{
@@ -110,11 +115,21 @@ form label[for=mastercard] {
         font-size: 25px;
         text-align: center;
         color: black;
+        padding-bottom: 2%;
     }
 
     li {
         font-size: 18px;
     }
+
+    form fieldset {
+        border: groove;
+        border-color: blue;
+        border-width: 5px;
+}
+    form fieldset fieldset legend {
+        font-size: 20px !important;
+}
 
 }
 
