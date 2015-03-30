@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+body {
+    background: #EBC249;
+	color: white;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 1.5%;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 1.6em;
+	color: #343434;
+	text-align: center;
+}
+
+form#newsletter {
+    background: #343434;
+    padding: 2%;
+    margin: auto;
+    margin-top: 3%;
+    width:70%;
+}
+
+input {
+	font-size: 1.03em;
+	line-height: 110%;
+	padding: 1.2%;
+	margin: 1.5%;
+  	border: 0.2em solid rgba(255,255,255,0);
+  	width: 70%;
+  	text-align: left;
+  	color: #E96401;
+}
+
+input:focus {
+	border: 0.2em solid rgba(233,100,1,1);
+}
+
+fieldset {
+	border: none;
+	background: #E99701;
+}
+
+fieldset>legend {
+	margin-top: 5%;
+	margin-bottom: 3%;
+	position: relative;
+	top: 1.5em;
+	left: 1em;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+li {
+	list-style: none;
+}
+
+input[type=radio], 
+input.radio { 
+	float:left; 
+	clear:none; 
+	margin: 2px 0 0 2px; }
+
+fieldset fieldset>legend {
+	left: -1em;
+	font-size: 1.03em;
+	line-height: 110%;
+	margin: 3% 0 5% 0;
+}
+
+fieldset fieldset label {
+    background:none no-repeat;
+    float: left;
+    padding: 0 0 0 30px;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+form fieldset fieldset .substype label {
+    padding: 0;
+}
+
+fieldset fieldset input {
+	width: auto;
+}
+
+form label[for=visa] {
+    background-image: url("../images/visa.gif");
+}
+form label[for=amex] {
+    background-image: url("../images/amex.gif");
+}
+form label[for=mastercard] {
+    background-image: url("../images/mastercard.gif");
+}
+
+#signup-button {
+    margin: auto;
+    display: block;
+    width: 100%;
+    margin: 3% 0 0 0;
+    text-align: center;
+    background: #E96401;
+    color: white;
+}
+
+@media only screen and (max-width: 560px) {
+	form#newsletter {
+		width: 100%;
+		padding: 2%;
+    	margin: auto;
+	}
+
+}

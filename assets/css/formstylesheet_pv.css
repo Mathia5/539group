@@ -52,10 +52,14 @@ legend#ftitle {
 }
 
 legend{
-    font-style: bold;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 14px;
     text-align: center;
     color: black;
+}
+
+form fieldset fieldset legend {
+    font-size: 14px !important;
 }
 
 #signup-button {
@@ -74,6 +78,11 @@ form fieldset fieldset label {
     padding: 0 0 0 30px;
     width: auto;
 }
+
+form fieldset fieldset .substype label {
+    padding: 0;
+}
+
 form label[for=visa] {
     background-image: url("../images/visa.gif");
 }
@@ -97,7 +106,7 @@ form label[for=mastercard] {
     }
 
     legend{
-        font-style: bold;
+        font-weight: bold;
         font-size: 25px;
         text-align: center;
         color: black;
