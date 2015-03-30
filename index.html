@@ -12,36 +12,48 @@
 
 <header>
     <h1> Career Prep Pro </h1>
+    <script src="inputValidator.js" type="text/javascript"></script>
 </header>
 
+<<<<<<< HEAD
 <form action="send.php" method="post" id="newsletter" name="newsletter">
     <h3>To register for the newsletter, please enter the following information:</h3>
     <fieldset>
+=======
+<form action="send.php" method="post" id="newsletter" name="newsletter" onsubmit="return overallCheck()">
+    <legend>To register for the newsletter, please enter the following information:</legend>
+    <fieldset id="details" onchange="yourDetailCheck(this)">
+>>>>>>> origin/master
         <legend>Your details</legend>
         <ol>
             <li>
                 <label for="firstname">First Name</label>
                 <input id="firstname" name="firstname" type="text" placeholder="First Name" required autofocus>
+                <label id="CheckFirstName"></label>
             </li>
             <li>
                 <label for="lastname">Last Name</label>
                 <input id="lastname" name="lastname" type="text" placeholder="Last Name" required autofocus>
+                <label id="CheckLastName"></label>
             </li>
             <li>
                 <label for="phone">Phone</label>
                 <input id="phone" name="phone" type="text" placeholder="Eg. 123-456-7890" required>
+                <label id="CheckPhone"></label>
             </li>
             <li>
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email"  placeholder="example@domain.com" required>
+                <label id="CheckEmail"></label>
             </li>
             <li>
                 <label for="confirm-email">Confirm email</label>
                 <input id="confirm-email" name="confirm-email" type="email"  placeholder="example@domain.com" required>
+                <label id="CheckEmailConfirm"></label>
             </li>
         </ol>
     </fieldset>
-    <fieldset>
+    <fieldset id="address">
         <legend>Delivery address</legend>
         <ol>
             <li>
@@ -71,7 +83,7 @@
         </ol>
     </fieldset>
 
-    <fieldset>
+    <fieldset id="payment">
         <legend>Card details</legend>
         <ol>
             <li>
@@ -112,7 +124,7 @@
         </ol>
     </fieldset>
 
-    <fieldset>
+    <fieldset id="subscription">
         <legend>Newsletter</legend>
         <ol>
             <li>
