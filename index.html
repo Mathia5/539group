@@ -5,6 +5,7 @@
     <title>Career Prep Pro</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/formstylesheet_pv.css">
+    <!-- <link rel="stylesheet" href="assets/css/formstylesheet_yc.css"> -->
 </head>
 
 <body>
@@ -14,7 +15,7 @@
 </header>
 
 <form action="send.php" method="post" id="newsletter" name="newsletter">
-    <legend>To register for the newsletter, please enter the following information:</legend>
+    <h3>To register for the newsletter, please enter the following information:</h3>
     <fieldset>
         <legend>Your details</legend>
         <ol>
@@ -45,15 +46,15 @@
         <ol>
             <li>
                 <label for="street1">Street Address 1</label>
-                <input type="text" name="street1" placeholder="123 Main St">
+                <input type="text" id="street1" name="street1" placeholder="123 Main St">
             </li>
             <li>
                 <label for="street2">Street Address 2</label>
-                <input type="text" name="street2" placeholder="Island Drive">
+                <input type="text" id="street2" name="street2" placeholder="Island Drive">
             </li>
             <li>
                 <label for="city">City</label>
-                <input type="text" name="city" placeholder="Ann Arbor">
+                <input type="text" id="city" name="city" placeholder="Ann Arbor">
             </li>
             <li>
                 <label for="country">Country</label>
@@ -61,11 +62,11 @@
             </li>
             <li>
                 <label for="state">State</label>
-                <input type="text" name="state" placeholder="MI">
+                <input type="text" id="state" name="state" placeholder="MI">
             </li>
             <li>
                 <label for="zip">Zip</label>
-                <input type="text" name="zip" placeholder="48105">
+                <input type="text" id="zip" name="zip" placeholder="48105">
             </li>
         </ol>
     </fieldset>
@@ -102,7 +103,7 @@
             </li>
             <li>
                 <label for="cardexpiry">Expiry date</label>
-                <input id="cardexpiry" name="cardexpiry" type="date" placeholder="00/00" required>
+                <input id="cardexpiry" name="cardexpiry" type="date" required>
             </li>
             <li>
                 <label for="cardcvv">CSV Number</label>
