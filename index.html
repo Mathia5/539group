@@ -4,7 +4,7 @@
 <head>
     <title>Career Prep Pro</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/formstylesheet_yc.css">
+    <link rel="stylesheet" href="assets/css/formstylesheet_pv.css">
 </head>
 
 <body>
@@ -29,6 +29,10 @@
             <li>
                 <label for="phone">Phone</label>
                 <input id="phone" name="phone" type="text" placeholder="Eg. 123-456-7890" required>
+            </li>
+            <li>
+                <label for="birthdate">Birth Date</label>
+                <input id="birthdate" name="birthdate" type="date" placeholder="00/00" required>
             </li>
             <li>
                 <label for="email">Email</label>
@@ -116,21 +120,21 @@
         <ol>
             <li>
                 <fieldset>
-                <legend>Subscription Type</legend>
-                <ol class="substype">
-                    <li>
-                        <input id="subs1" name="subs" type="radio" value="Print">
-                        <label for="subs1">Print</label>
-                    </li>
-                    <li>
-                        <input id="subs2" name="subs" type="radio" value="Electronic">
-                        <label for="subs2">Electronic</label>
-                    </li>
-                    <li>
-                        <input id="subs3" name="subs" type="radio" value="PrintElectronic">
-                        <label for="subs3">Print + Electronic</label>
-                    </li>
-                </ol>
+                    <legend>Subscription Type</legend>
+                    <ol class="substype">
+                        <li>
+                            <input id="subs1" name="subs" type="radio" value="Print">
+                            <label for="subs1">Print</label>
+                        </li>
+                        <li>
+                            <input id="subs2" name="subs" type="radio" value="Electronic">
+                            <label for="subs2">Electronic</label>
+                        </li>
+                        <li>
+                            <input id="subs3" name="subs" type="radio" value="PrintElectronic">
+                            <label for="subs3">Print + Electronic</label>
+                        </li>
+                    </ol>
                 </fieldset>
             </li>
             <li>
@@ -153,6 +157,25 @@
                             <input id="freq4" name="freq" type="radio" value="Yearly">
                             <label for="freq4">Yearly</label>
                         </li>
+                    </ol>
+                </fieldset>
+            </li>
+            <li>
+                <fieldset>
+                    <legend>Preferred Topics</legend>
+                    <ol class="substype">
+                    <li>
+                        <input id="topic1" name="topic[]" type="checkbox" value="Networking">
+                        <label for="topic1">Networking</label>
+                    </li>
+                    <li>
+                        <input id="topic2" name="topic[]" type="checkbox" value="OnlineBranding" checked>
+                        <label for="topic2">Online Branding</label>
+                    </li>
+                    <li>
+                        <input id="topic3" name="topic[]" type="checkbox" value="Interviewing" checked>
+                        <label for="topic3">Interviewing</label>
+                    </li>
                     </ol>
                 </fieldset>
             </li>

@@ -76,7 +76,8 @@ try {
                 $headers .= "Reply-To: $emailFrom" . PHP_EOL;
                 $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
 
-                $body = $firstname . $phone . $street1 . $city . $state;
+                $body = 'Name:' . $firstname . ' ' . $lastname . '<br>';
+                $body .= 'Registered Email:' . $email;
 
                 mail($email, $subject, $body, $headers);
 
@@ -95,7 +96,7 @@ try {
 
     $data = array(
         'status' => $status,
-        'message' => $message
+        'message' => $message,
     );
 
     echo json_encode($data);
