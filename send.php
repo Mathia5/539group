@@ -7,9 +7,11 @@ $pass   = "root";
 
 $email = filter_var($_POST['confirm-email'], FILTER_SANITIZE_EMAIL);
 $datetime = date('Y-m-d H:i:s');
-$fullname = stripslashes(trim($_POST['name']));
+$firstname = stripslashes(trim($_POST['firstname']));
+$lastname = stripslashes(trim($_POST['lastname']));
 $phone = stripslashes(trim($_POST['phone']));
-$street = stripslashes(trim($_POST['street']));
+$street1 = stripslashes(trim($_POST['street1']));
+$street2 = stripslashes(trim($_POST['street2']));
 $city = stripslashes(trim($_POST['city']));
 $state = stripslashes(trim($_POST['state']));
 $zip = stripslashes(trim($_POST['zip']));
@@ -38,16 +40,18 @@ try {
         $data_exists = ($existingSignup->fetchColumn() > 0) ? true : false;
 
         if (!$data_exists) {
-            $sql = "INSERT INTO signups (signup_email_address, signup_date, signup_name, signup_phone, signup_street, signup_city, signup_state, signup_zip, signup_country, signup_cardtype, signup_cardnumber, signup_cardname, signup_cardexpiry, signup_subs, signup_freq ) VALUES
-(:email, :datetime, :fullname, :phone, :street, :city, :state, :zip, :country, :cardtype, :cardnumber, :cardname, :cardexpiry, :subs, :freq)";
+            $sql = "INSERT INTO signups (signup_email_address, signup_date, signup_firstname, signup_lastname, signup_phone, signup_street1, signup_street2, signup_city, signup_state, signup_zip, signup_country, signup_cardtype, signup_cardnumber, signup_cardname, signup_cardexpiry, signup_subs, signup_freq ) VALUES
+(:email, :datetime, :firstname, :lastname, :phone, :street1, :street2, :city, :state, :zip, :country, :cardtype, :cardnumber, :cardname, :cardexpiry, :subs, :freq)";
             $q = $db->prepare($sql);
             $q->execute(
                 array(
                     ':email' => $email,
                     ':datetime' => $datetime,
-                    ':fullname' => $fullname,
+                    ':firstname' => $firstname,
+                    ':lastname' => $lastname,
                     ':phone' => $phone,
-                    ':street' => $street,
+                    ':street1' => $street1,
+                    ':street2' => $street2,
                     ':city' => $city,
                     ':state' => $state,
                     ':zip' => $zip,
@@ -72,7 +76,7 @@ try {
                 $headers .= "Reply-To: $emailFrom" . PHP_EOL;
                 $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
 
-                $body = $fullname . $phone . $street . $city . $state;
+                $body = $firstname . $phone . $street1 . $city . $state;
 
                 mail($email, $subject, $body, $headers);
 

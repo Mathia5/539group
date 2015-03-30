@@ -78,6 +78,10 @@ fieldset fieldset label {
     margin-left: 2%;
 }
 
+form fieldset fieldset .substype label {
+    padding: 0;
+}
+
 fieldset fieldset input {
 	width: auto;
 }
