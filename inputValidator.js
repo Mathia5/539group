@@ -70,7 +70,7 @@ if(ph=="" | ph==null)
 	obj.children[1].children[2].children[2].innerHTML="";
 	JudgeDetail[2]=0;
 
-}else if(emRex.test(ph)!=true)
+}else if(phRex.test(ph)!=true)
 {
 	obj.children[1].children[2].children[2].innerHTML="&nbsp&nbsp&nbsp&nbsp Invalid Phone";
 	JudgeDetail[2]=0;
