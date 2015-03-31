@@ -61,7 +61,8 @@ input[type=radio],
 input.radio { 
 	float:left; 
 	clear:none; 
-	margin: 2px 0 0 2px; }
+	margin: 2px 0 0 2px; 
+}
 
 fieldset fieldset>legend {
 	left: -1em;
@@ -71,19 +72,26 @@ fieldset fieldset>legend {
 }
 
 fieldset fieldset label {
-    background:none no-repeat;
+	float: left;
+	padding: 0 0 0 20px;
+	margin-right: 10%;
+    margin-left: 2%;
+}
+
+#payment fieldset label {
+    background-repeat: no-repeat;
     float: left;
     padding: 0 0 0 30px;
     margin-right: 10%;
     margin-left: 2%;
 }
 
-form fieldset fieldset .substype label {
-    padding: 0;
-}
-
 fieldset fieldset input {
 	width: auto;
+}
+
+form fieldset fieldset .substype label {
+    padding: 0;
 }
 
 form label[for=visa] {
@@ -107,10 +115,69 @@ form label[for=mastercard] {
 }
 
 @media only screen and (max-width: 560px) {
+	body {
+		background: #343434;
+	}
+
+	h1 {
+		color: white;
+	}
+
 	form#newsletter {
 		width: 100%;
 		padding: 2%;
     	margin: auto;
+    	background: #343434;
+	}
+
+	input {
+	font-size: 0.95em;
+	line-height: 95%;
+	padding: 1%;
+	margin: 2%;
+  	width: 90%;
+	}
+
+	input:focus {
+		border: 0.2em solid rgba(233,100,1,1);
+	}
+
+	fieldset {
+		background: #343434;
+	}
+
+	fieldset>legend {
+	margin-top: 3%;
+	margin-bottom: 5%;
+	top: 1.3em;
+	font-size: 1.2em;
+	}
+
+	fieldset fieldset>legend {
+	left: -1em;
+	font-size: 1em;
+	line-height: 100%;
+	margin: 3% 0 10% 0;
+	}
+
+	fieldset fieldset li {
+		display: block;
+	}
+
+	fieldset fieldset label {
+		display: block;
+		float: none;
+
+		padding: 0 0 0 20px;
+		margin-left: 15%;
+		margin-bottom: 3%;
+	}
+
+	#payment fieldset label {
+	    background-repeat: no-repeat;
+	    float: none;
+	    display: block;
+	    margin-left: 18%;
 	}
 
 }
