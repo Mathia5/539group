@@ -16,38 +16,38 @@
 </header>
 
 <form action="send.php" method="post" id="newsletter" name="newsletter" onsubmit="return overallCheck()">
-    <legend>To register for the newsletter, please enter the following information:</legend>
+    <h3>To register for the newsletter, please enter the following information:</h3>
     <fieldset id="details" onchange="yourDetailCheck(this)">
         <legend>Your details</legend>
         <ol>
             <li>
                 <label for="firstname">First Name</label>
                 <input id="firstname" name="firstname" type="text" placeholder="First Name" required autofocus>
-                <label id="CheckFirstName"></label>
+                <span id="CheckFirstName"></span>
             </li>
             <li>
                 <label for="lastname">Last Name</label>
                 <input id="lastname" name="lastname" type="text" placeholder="Last Name" required autofocus>
-                <label id="CheckLastName"></label>
+                <span id="CheckLastName"></span>
             </li>
             <li>
                 <label for="phone">Phone</label>
                 <input id="phone" name="phone" type="text" placeholder="Eg. 123-456-7890" required>
-                <label id="CheckPhone"></label>
+                <span id="CheckPhone"></span>
             </li>
             <li>
                 <label for="birthdate">Birth Date</label>
-                <input id="birthdate" name="birthdate" type="date" placeholder="00/00" required>
+                <input id="birthdate" name="birthdate" type="date" required>
             </li>
             <li>
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email"  placeholder="example@domain.com" required>
-                <label id="CheckEmail"></label>
+                <span id="CheckEmail"></span>
             </li>
             <li>
                 <label for="confirm-email">Confirm email</label>
                 <input id="confirm-email" name="confirm-email" type="email"  placeholder="example@domain.com" required>
-                <label id="CheckEmailConfirm"></label>
+                <span id="CheckEmailConfirm"></span>
             </li>
         </ol>
     </fieldset>
