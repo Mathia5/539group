@@ -43,6 +43,11 @@ li {
     font-size: 14px;
 }
 
+li span {
+    color: red;
+    font-size: 10px;
+}
+
 form ol ol li {
     background: none;
     border: none;

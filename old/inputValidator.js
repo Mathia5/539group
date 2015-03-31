@@ -12,26 +12,22 @@ var JudgeDetail=[0,0,0,0,0];
 // detail validation check
 function yourDetailCheck(obj){
 
-// get value
+    // get value
 // var yourDetail=obj.children[1];
     var nm=obj.children[1].children[0].children[1].value;
     var lnm=obj.children[1].children[1].children[1].value;
     var ph=obj.children[1].children[2].children[1].value;
     var em1=obj.children[1].children[3].children[1].value;
     var em2=obj.children[1].children[4].children[1].value;
-// var pw2=obj.children[1].children[5].children[1].value;
+    //var pw2=obj.children[1].children[5].children[1].value;
 
-
-// standard regex
+    // standard regex
     var nmRex=/\b[a-z\s*]+/i;
     var lnmRex=/\b[a-z\s*]+/i;
     var phRex=/[0-9]{3}(\-|\s*)[0-9]{3}(\-|\s*)[0-9]{4}/i;
     var emRex=/[\w-\._]+@[\w-_\.]+\.[\w-_]{2,4}/i;
 
-
-
-// checking
-// name
+    //first name
     if(nm=="" | nm==null)
     {
         obj.children[1].children[0].children[2].innerHTML="";
@@ -46,7 +42,7 @@ function yourDetailCheck(obj){
         obj.children[1].children[0].children[2].innerHTML="";
     }
 
-//last name
+    //last name
     if(lnm=="" | lnm==null)
     {
         obj.children[1].children[1].children[2].innerHTML="";
@@ -62,9 +58,7 @@ function yourDetailCheck(obj){
         obj.children[1].children[1].children[2].innerHTML="";
     }
 
-
-
-//phone
+    //phone
     if(ph=="" | ph==null)
     {
         obj.children[1].children[2].children[2].innerHTML="";
@@ -80,8 +74,7 @@ function yourDetailCheck(obj){
         obj.children[1].children[2].children[2].innerHTML="";
     }
 
-
-//email
+    //email
     if(em1=="" | em1==null)
     {
         obj.children[1].children[3].children[2].innerHTML="";
@@ -98,7 +91,7 @@ function yourDetailCheck(obj){
     }
 
 
-// email check
+    // email confirm check
     if(em2=="" | em2==null)
     {
         obj.children[1].children[4].children[2].innerHTML="";
@@ -114,26 +107,6 @@ function yourDetailCheck(obj){
         obj.children[1].children[4].children[2].innerHTML="";
     }
 
-// password
-
-
-// // password match
-// if(pw2=="" | pw2==null)
-// {
-// 	obj.children[1].children[5].children[2].innerHTML="";
-// 	JudgeDetail[5]=0;
-
-// }else if(pw1!==pw2)
-// {
-// 	obj.children[1].children[5].children[2].innerHTML="&nbsp&nbsp&nbsp&nbsp password doesn't match";
-// 	JudgeDetail[5]=0;
-// }else
-// {
-// 	JudgeDetail[5]=1;
-// 	obj.children[1].children[5].children[2].innerHTML="";
-// }
-    console.log(JudgeDetail);
-    console.log(sum(JudgeDetail));
 }
 
 // overall check
@@ -143,5 +116,7 @@ function overallCheck()
     {
         alert("invalid input in your detail");
         return false;
+    } else {
+        return true;
     }
 }
