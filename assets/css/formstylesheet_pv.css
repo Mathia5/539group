@@ -49,9 +49,9 @@ form ol ol li {
     float: left;
 }
 
-legend#ftitle {
+h3 {
     text-align: left;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
     font-size: 16px;
     font-weight: bolder;
 }
@@ -129,6 +129,13 @@ form label[for=mastercard] {
 }
     form fieldset fieldset legend {
         font-size: 20px !important;
+}
+
+h3 {
+    text-align: left;
+    padding-bottom: 2%;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 }
