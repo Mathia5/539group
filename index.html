@@ -2,201 +2,180 @@
 <html lang="en">
 
 <head>
-    <title>Career Prep Pro</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/formstylesheet_pv.css">
-    <!--<link rel="stylesheet" href="assets/css/formstylesheet_yc.css">-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Casual - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
 
-<header>
-    <h1> Career Prep Pro </h1>
-</header>
+    <div class="brand">Business Casual</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
-<form action="send.php" method="post" id="newsletter" name="newsletter">
-    <h3>To register for the newsletter, please enter the following information:</h3>
-    <fieldset id="details" onchange="yourDetailCheck(this)">
-        <legend>Your details</legend>
-        <ol>
-            <li>
-                <label for="firstname">First Name</label>
-                <input id="firstname" name="firstname" type="text" placeholder="First Name" required autofocus>
-                <span id="CheckFirstName"></span>
-            </li>
-            <li>
-                <label for="lastname">Last Name</label>
-                <input id="lastname" name="lastname" type="text" placeholder="Last Name" required autofocus>
-                <span id="CheckLastName"></span>
-            </li>
-            <li>
-                <label for="phone">Phone</label>
-                <input id="phone" name="phone" type="text" placeholder="Eg. 123-456-7890" required>
-                <span id="CheckPhone"></span>
-            </li>
-            <li>
-                <label for="birthdate">Birth Date</label>
-                <input id="birthdate" name="birthdate" type="date" required>
-            </li>
-            <li>
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email"  placeholder="example@domain.com" required>
-                <span id="CheckEmail"></span>
-            </li>
-            <li>
-                <label for="confirm-email">Confirm email</label>
-                <input id="confirm-email" name="confirm-email" type="email"  placeholder="example@domain.com" required>
-                <span id="CheckEmailConfirm"></span>
-            </li>
-        </ol>
-    </fieldset>
-    <fieldset id="address">
-        <legend>Delivery address</legend>
-        <ol>
-            <li>
-                <label for="street1">Street Address 1</label>
-                <input type="text" id="street1" name="street1" placeholder="123 Main St">
-            </li>
-            <li>
-                <label for="street2">Street Address 2</label>
-                <input type="text" id="street2" name="street2" placeholder="Island Drive">
-            </li>
-            <li>
-                <label for="city">City</label>
-                <input type="text" id="city" name="city" placeholder="Ann Arbor">
-            </li>
-            <li>
-                <label for="country">Country</label>
-                <input id="country" name="country" type="text" required placeholder="USA">
-            </li>
-            <li>
-                <label for="state">State</label>
-                <input type="text" id="state" name="state" placeholder="MI">
-            </li>
-            <li>
-                <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="48105">
-            </li>
-        </ol>
-    </fieldset>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Business Casual</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-    <fieldset id="payment">
-        <legend>Card details</legend>
-        <ol>
-            <li>
-                <fieldset>
-                    <legend>Card type</legend>
-                    <ol>
-                        <li>
-                            <input id="visa" name="cardtype" type="radio" value="Visa" required>
-                            <label for="visa">VISA</label>
-                        </li>
-                        <li>
-                            <input id="amex" name="cardtype" type="radio" value="AmEx">
-                            <label for="amex">AmEx</label>
-                        </li>
-                        <li>
-                            <input id="mastercard" name="cardtype" type="radio" value="MasterCard">
-                            <label for="mastercard">Mastercard</label>
-                        </li>
-                    </ol>
-                </fieldset>
-            </li>
-            <li>
-                <label for="cardnumber">Card number</label>
-                <input id="cardnumber" name="cardnumber" type="text" required placeholder="000-0000-0000-0000">
-            </li>
-            <li>
-                <label for="cardname">Name on card</label>
-                <input id="cardname" name="cardname" type="text" placeholder="Exact name as on the card" required>
-            </li>
-            <li>
-                <label for="cardexpiry">Expiry date</label>
-                <input id="cardexpiry" name="cardexpiry" type="date" required>
-            </li>
-            <li>
-                <label for="cardcvv">CSV Number</label>
-                <input id="cardcvv" name="cardcvv" type="text" pattern="[0-9]{3}" placeholder="213" required>
-            </li>
-        </ol>
-    </fieldset>
+    <div class="container">
 
-    <fieldset id="subscription">
-        <legend>Newsletter</legend>
-        <ol>
-            <li>
-                <fieldset>
-                    <legend>Subscription Type</legend>
-                    <ol class="substype">
-                        <li>
-                            <input id="subs1" name="subs" type="radio" value="Print" required>
-                            <label for="subs1">Print</label>
-                        </li>
-                        <li>
-                            <input id="subs2" name="subs" type="radio" value="Electronic">
-                            <label for="subs2">Electronic</label>
-                        </li>
-                        <li>
-                            <input id="subs3" name="subs" type="radio" value="PrintElectronic">
-                            <label for="subs3">Print + Electronic</label>
-                        </li>
-                    </ol>
-                </fieldset>
-            </li>
-            <li>
-                <fieldset>
-                    <legend>Subscription Frequency</legend>
-                    <ol class="substype">
-                        <li>
-                            <input id="freq1" name="freq" type="radio" value="Daily" required>
-                            <label for="freq1">Daily</label>
-                        </li>
-                        <li>
-                            <input id="freq2" name="freq" type="radio" value="Weekly">
-                            <label for="freq2">Weekly</label>
-                        </li>
-                        <li>
-                            <input id="freq3" name="freq" type="radio" value="Monthly">
-                            <label for="freq3">Monthly</label>
-                        </li>
-                        <li>
-                            <input id="freq4" name="freq" type="radio" value="Yearly">
-                            <label for="freq4">Yearly</label>
-                        </li>
-                    </ol>
-                </fieldset>
-            </li>
-            <li>
-                <fieldset>
-                    <legend>Preferred Topics</legend>
-                    <ol class="substype">
-                        <li>
-                            <input id="topic1" name="topic[]" type="checkbox" value="Networking">
-                            <label for="topic1">Networking</label>
-                        </li>
-                        <li>
-                            <input id="topic2" name="topic[]" type="checkbox" value="OnlineBranding" checked>
-                            <label for="topic2">Online Branding</label>
-                        </li>
-                        <li>
-                            <input id="topic3" name="topic[]" type="checkbox" value="Interviewing" checked>
-                            <label for="topic3">Interviewing</label>
-                        </li>
-                    </ol>
-                </fieldset>
-            </li>
-        </ol>
-    </fieldset>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
 
-    <input type="submit" value="Subscribe" name="signup-button" id="signup-button">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
 
-</form>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1 class="brand-name">Business Casual</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By
+                            <strong>Start Bootstrap</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
 
-<div id="response"></div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Build a website
+                        <strong>worth visiting</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+                    <hr class="visible-xs">
+                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
+                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+        </div>
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="assets/js/inputvalidate.js" type="text/javascript"></script>
-<script src="assets/js/lib.js" type="text/javascript"></script>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Beautiful boxes
+                        <strong>to showcase your content</strong>
+                    </h2>
+                    <hr>
+                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
+
 </html>
