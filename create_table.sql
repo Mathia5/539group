@@ -21,4 +21,12 @@ CREATE TABLE signups (
   signup_subs VARCHAR(300) NOT NULL,
   signup_freq VARCHAR(300) NOT NULL,
   PRIMARY KEY (signups_id)
-)
+);
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+  uid INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  username VARCHAR(255) NOT NULL,
+  password VARCHAR(16) NOT NULL,
+  PRIMARY KEY (uid)
+);
