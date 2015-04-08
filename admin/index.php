@@ -61,7 +61,7 @@
 
 ?>
 <h1>Login</h1>
-<form action="login.php" method="post">
+<form action="index.php" method="post">
     Username:<br />
     <input type="text" name="username" value="<?php echo $submitted_username; ?>" />
     <br /><br />

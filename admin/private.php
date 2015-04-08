@@ -4,9 +4,9 @@
 
     if(empty($_SESSION['user']))
     {
-        header("Location: login.php");
+        header("Location: index.php");
 
-        die("Redirecting to login.php");
+        die("Redirecting to index.php");
     }
 
 ?>
