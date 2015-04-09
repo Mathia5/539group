@@ -26,7 +26,7 @@ $(document).ready(function () {
                     data: $this.serialize()
                 }).done(function (data) {
                     if (data.status != 'error') {
-                        window.location.href = "thank-you.php"
+                        window.location.href = "success.php"
                     } else {
                         $response.removeClass('loading');
                         $response.html('<p>' + data.message + '</p>');

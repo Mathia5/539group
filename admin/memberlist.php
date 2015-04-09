@@ -1,12 +1,12 @@
 <?php
 
-    require("common.php");
+    require("../includes/common.php");
 
     if(empty($_SESSION['user']))
     {
-        header("Location: index.php");
+        header("Location: ../login.php");
 
-        die("Redirecting to index.php");
+        die("Redirecting to login.php");
     }
 
     $query = "
@@ -41,7 +41,7 @@
     $rows = $stmt->fetchAll();
 $fName = basename(__FILE__);
     $pageTitle = 'Career Prep Pro';
-    include 'header_template.php';
+    include '../includes/header_template.php';
 
 ?>
 
@@ -99,5 +99,5 @@ $fName = basename(__FILE__);
 </div>
 
 <?php
-    include 'footer_template.php'
+    include '../includes/footer_template.php'
 ?>

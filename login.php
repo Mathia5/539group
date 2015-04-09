@@ -1,8 +1,6 @@
 <?php
 
-    require("common.php");
-
-
+    require("includes/common.php");
 
     $submitted_username = '';
 
@@ -51,8 +49,8 @@
 
             $_SESSION['user'] = $row;
 
-            header("Location: private.php");
-            die("Redirecting to: private.php");
+            header("Location: admin/private.php");
+            die("Redirecting to: admin/private.php");
         }
         else
         {
@@ -62,8 +60,8 @@
     }
 
     $fName = basename(__FILE__);
-    $pageTitle = 'Career Prep Pro';
-    include 'header_template.php';
+    $pageTitle = 'Admin Login';
+    include 'includes/header_template.php';
 
 ?>
 
@@ -77,7 +75,7 @@
                 <hr>
             </div>
 
-            <form action="index.php" method="post">
+            <form action="login.php" method="post">
                 Username:<br />
                 <input type="text" name="username" value="<?php echo $submitted_username; ?>" />
                 <br /><br />
@@ -91,5 +89,5 @@
 </div>
 
 <?php
-    include 'footer_template.php'
+    include 'includes/footer_template.php'
 ?>

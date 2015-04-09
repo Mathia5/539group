@@ -1,7 +1,7 @@
 <?php
     $fName = basename(__FILE__);
     $pageTitle = 'Career Prep Pro';
-    include 'header_template.php';
+    include 'includes/header_template.php';
 ?>
 
 <div class="container">
@@ -14,7 +14,7 @@
                 <hr>
             </div>
 
-            <form action="send.php" method="post" id="newsletter" name="newsletter">
+            <form action="includes/send.php" method="post" id="newsletter" name="newsletter">
                 <h3>To register for the newsletter, please enter the following information:</h3>
                 <fieldset id="details" onchange="yourDetailCheck(this)">
                     <legend>Your details</legend>
@@ -198,5 +198,5 @@
 </div>
 
 <?php
-    include 'footer_template.php'
+    include 'includes/footer_template.php'
 ?>

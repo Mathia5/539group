@@ -1,3 +1,18 @@
+<?php
+
+//$url = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
+define('BASE_URL', 'http://localhost/539/group/project');
+
+//if (BASE_URL != $url) {
+//
+//    header("Location: install.php");
+//
+//    die("Redirecting to: install.php");
+//
+//}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,16 +23,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico" />
 
     <title><?php 
             echo $pageTitle;
      ?></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../assets/css/business-casual.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/assets/css/business-casual.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/assets/css/custom.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -65,7 +82,7 @@
                     }
                     ?>
                     >
-                        <a href="index.php">Home</a>
+                        <a href="<?php echo BASE_URL; ?>">Home</a>
                     </li>
                     <li
                     <?php
@@ -74,7 +91,7 @@
                     }
                     ?>
                     >
-                        <a href="content.php">Content</a>
+                        <a href="<?php echo BASE_URL; ?>/content.php">Content</a>
                     </li>
                     <li
                     <?php
@@ -83,16 +100,16 @@
                     }
                     ?>
                     >
-                        <a href="form">Form</a>
+                        <a href="<?php echo BASE_URL; ?>/form.php">Form</a>
                     </li>
                     <li
                     <?php
-                    if ($fName == "admin.php"){
+                    if ($fName == "login.php"){
                         echo "class = \"active\"";
                     }
                     ?>
                     >
-                        <a href="admin">Admin</a>
+                        <a href="<?php echo BASE_URL; ?>/login.php">Admin</a>
                     </li>
                     <li
                     <?php
@@ -101,7 +118,7 @@
                     }
                     ?>
                     >
-                        <a href="contact.php">Contact</a>
+                        <a href="<?php echo BASE_URL; ?>/contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

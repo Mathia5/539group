@@ -1,7 +1,7 @@
 <?php
   $fName = basename(__FILE__);
   $pageTitle = 'Career Prep Pro';
-  include 'header_template.php';
+  include 'includes/header_template.php';
  ?>
 
 <div class="container">
@@ -101,5 +101,7 @@
 <!-- /.container -->
 
 <?php
-    include 'footer_template.php'
+    include 'includes/footer_template.php';
 ?>
+
+

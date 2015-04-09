@@ -1,9 +1,9 @@
 <?php
 
-    require("common.php");
+    require("../includes/common.php");
 
     unset($_SESSION['user']);
 
-    header("Location: index.php");
+    header("Location: ../login.php");
 
-    die("Redirecting to: index.php");
+    die("Redirecting to: login.php");
