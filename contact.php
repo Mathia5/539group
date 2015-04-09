@@ -11,7 +11,7 @@
             <div class="col-lg-12">
                 <hr>
                 <h2 class="intro-text text-center">Contact
-                    <strong>business casual</strong>
+                    <strong>Career Prep</strong>
                 </h2>
                 <hr>
             </div>

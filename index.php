@@ -11,22 +11,31 @@
             <div class="col-lg-12 text-center">
                 <div id="carousel-example-generic" class="carousel slide">
                     <!-- Indicators -->
-                    <ol class="carousel-indicators hidden-xs">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
+                    <!--<ol class="carousel-indicators hidden-xs">-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+                    <!--</ol>-->
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive img-full" src="assets/images/slide-1.jpg" alt="">
+                            <a href="http://google.com" target="_blank">
+                                <img class="img-responsive img-full" src="assets/images/slide1.jpg" alt="">
+                                <p class="slidercontent text-center">This is Link1</p>
+                            </a>
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-full" src="assets/images/slide-2.jpg" alt="">
+                            <a href="http://duckduckgo.com" target="_blank">
+                                <img class="img-responsive img-full" src="assets/images/slide2.jpg" alt="">
+                                <p class="slidercontent text-center">This is Link2</p>
+                            </a>
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-full" src="assets/images/slide-3.jpg" alt="">
+                            <a href="http://bing.com" target="_blank">
+                                <img class="img-responsive img-full" src="assets/images/slide3.jpg" alt="">
+                                <p class="slidercontent text-center">This is Link3</p>
+                            </a>
                         </div>
                     </div>
 
@@ -45,7 +54,7 @@
                 <hr class="tagline-divider">
                 <h2>
                     <small>By
-                        <strong>Start Bootstrap</strong>
+                        <strong>Yuan, Peter, Boxian, Mathais and Nishan</strong>
                     </small>
                 </h2>
             </div>
@@ -56,8 +65,8 @@
         <div class="box">
             <div class="col-lg-12">
                 <hr>
-                <h2 class="intro-text text-center">Our
-                    <strong>Team</strong>
+                <h2 class="intro-text text-center">Select
+                    <strong>Track</strong>
                 </h2>
                 <hr>
             </div>

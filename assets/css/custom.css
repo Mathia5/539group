@@ -1,3 +1,31 @@
 .container {
     max-width: 960px;
 }
+
+@-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+}
+
+.table-responsive {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.slidercontent {
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    color: white;
+    font-size: 16px;
+    left: 0;
+    margin: 0;
+    padding: 5px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.img-full {
+    min-width: 100%;
+}
