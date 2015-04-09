@@ -76,7 +76,22 @@ try {
                 $headers .= "Reply-To: $emailFrom" . PHP_EOL;
                 $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
 
-                $body = $firstname . $phone . $street1 . $city . $state;
+                $body = '<h2>Please find your subscription details below:</h2><br>';
+                $body .= 'Name: ' . $firstname . ' ' . $lastname . '<br>';
+                $body .= 'Registered Email: ' . $email . '<br>';
+                $body .= 'Date of Registration: ' . $datetime . '<br>';
+                $body .= 'Phone: ' . $phone . '<br>';
+                $body .= 'Street: ' . $street1 . ' ' . $street2 . '<br>';
+                $body .= 'City: ' . $city . '<br>';
+                $body .= 'State: ' . $state . '<br>';
+                $body .= 'Zip: ' . $zip . '<br>';
+                $body .= 'Country: ' . $country . '<br>';
+                $body .= 'Card Type: ' . $cardtype . '<br>';
+                $body .= 'Card Number: ' . $cardnumber . '<br>';
+                $body .= 'Card Name: ' . $cardname . '<br>';
+                $body .= 'Card Expiry: ' . $cardexpiry . '<br>';
+                $body .= 'Subscription Type: ' . $subs . '<br>';
+                $body .= 'Subscription Frequency: ' . $freq;
 
                 mail($email, $subject, $body, $headers);
 
@@ -95,7 +110,7 @@ try {
 
     $data = array(
         'status' => $status,
-        'message' => $message
+        'message' => $message,
     );
 
     echo json_encode($data);
