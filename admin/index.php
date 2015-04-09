@@ -2,6 +2,8 @@
 
     require("common.php");
 
+
+
     $submitted_username = '';
 
     if(!empty($_POST))
@@ -59,14 +61,35 @@
         }
     }
 
+    $fName = basename(__FILE__);
+    $pageTitle = 'Career Prep Pro';
+    include 'header_template.php';
+
 ?>
-<h1>Login</h1>
-<form action="index.php" method="post">
-    Username:<br />
-    <input type="text" name="username" value="<?php echo $submitted_username; ?>" />
-    <br /><br />
-    Password:<br />
-    <input type="password" name="password" value="" />
-    <br /><br />
-    <input type="submit" value="Login" />
-</form>
+
+<div class="container">
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">Login</strong>
+                </h2>
+                <hr>
+            </div>
+
+            <form action="index.php" method="post">
+                Username:<br />
+                <input type="text" name="username" value="<?php echo $submitted_username; ?>" />
+                <br /><br />
+                Password:<br />
+                <input type="password" name="password" value="" />
+                <br /><br />
+                <input type="submit" value="Login" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<?php
+    include 'footer_template.php'
+?>

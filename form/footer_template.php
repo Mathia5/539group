@@ -1,3 +1,4 @@
+
     <footer>
         <div class="container">
             <div class="row">
@@ -11,10 +12,14 @@
     </footer>
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="assets/js/jquery-1.11.0.js"></script>
+    <script src="../assets/js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <script src="../assets/js/inputvalidate.js" type="text/javascript"></script>
+
+    <script src="../assets/js/lib.js" type="text/javascript"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
