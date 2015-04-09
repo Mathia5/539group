@@ -54,7 +54,7 @@
                 <hr class="tagline-divider">
                 <h2>
                     <small>By
-                        <strong>Yuan, Peter, Boxian, Mathais and Nishan</strong>
+                        <strong>Yuan, Peter, Boxian, Mathias and Nishan</strong>
                     </small>
                 </h2>
             </div>
