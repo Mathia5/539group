@@ -17,7 +17,7 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/people.jpeg" alt="people on train">
+                    <img class="img-responsive img-border img-full" src="assets/images/people.jpeg" alt="people on train">
                     <h2>Networking
                         <br>
                         <small>Get out there and meet people.</small>
@@ -27,7 +27,7 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/tools.jpeg" alt="computer and ipad">
+                    <img class="img-responsive img-border img-full" src="assets/images/tools.jpeg" alt="computer and ipad">
                     <h2>Job Hunting
                         <br>
                         <small>Using the right tools to find the right job.</small>
@@ -37,7 +37,7 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/confidence.jpeg" alt="person on mountain">
+                    <img class="img-responsive img-border img-full" src="assets/images/confidence.jpeg" alt="person on mountain">
                     <h2>Interviewing
                         <br>
                         <small>Get prepared, get confident.</small>

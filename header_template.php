@@ -15,10 +15,10 @@
      ?></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="assets/css/business-casual.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -84,7 +84,7 @@
                     }
                     ?>
                     >
-                        <a href="form.php">Form</a>
+                        <a href="form">Form</a>
                     </li>
                     <li
                     <?php
@@ -93,7 +93,7 @@
                     }
                     ?>
                     >
-                        <a href="admin.php">Admin</a>
+                        <a href="admin">Admin</a>
                     </li>
                     <li
                     <?php
