@@ -7,85 +7,88 @@
 <div class="container">
     <div class="row">
         <div class="box">
-            <div class="col-lg-12">
-                <hr>
-                <h2 class="intro-text text-center">Subscribe</strong>
+           <div class="col-lg-12 text-center">
+                <h2>Newsletter Subscription Service
+                    <br>
+                    <small>Sign up to stay informed</small>
                 </h2>
-                <hr>
+                <br>
             </div>
 
             <form action="includes/send.php" method="post" id="newsletter" name="newsletter">
-                <h3>To register for the newsletter, please enter the following information:</h3>
+                <p>Planning for your career involves staying current with the latest tricks and trends in job hunting, personal marketing, and interviewing.
+                    Career Prep Pro provides a personalized newsletter subscription service to get you the most up-to-date information related to career planning. 
+                    Please complete the form below to sign up for your personalized newsletter.</p>
                 <fieldset id="details" onchange="yourDetailCheck(this)">
-                    <legend>Your details</legend>
+                    <legend class="top">Contact Information</legend>
                     <ol>
                         <li>
                             <label for="firstname">First Name</label>
-                            <input id="firstname" name="firstname" type="text" placeholder="First Name" required autofocus>
+                            <input id="firstname" name="firstname" type="text" placeholder="First Name" class="form-control" required autofocus>
                             <span id="CheckFirstName"></span>
                         </li>
                         <li>
                             <label for="lastname">Last Name</label>
-                            <input id="lastname" name="lastname" type="text" placeholder="Last Name" required autofocus>
+                            <input id="lastname" name="lastname" type="text" placeholder="Last Name" class="form-control" required autofocus>
                             <span id="CheckLastName"></span>
                         </li>
                         <li>
                             <label for="phone">Phone</label>
-                            <input id="phone" name="phone" type="text" placeholder="Eg. 123-456-7890" required>
+                            <input id="phone" name="phone" type="text" placeholder="Eg. 123-456-7890" class="form-control" required>
                             <span id="CheckPhone"></span>
                         </li>
                         <li>
                             <label for="birthdate">Birth Date</label>
-                            <input id="birthdate" name="birthdate" type="date" required>
+                            <input id="birthdate" name="birthdate" type="date" class="form-control" required>
                         </li>
                         <li>
                             <label for="email">Email</label>
-                            <input id="email" name="email" type="email"  placeholder="example@domain.com" required>
+                            <input id="email" name="email" type="email"  placeholder="example@domain.com" class="form-control" required>
                             <span id="CheckEmail"></span>
                         </li>
                         <li>
-                            <label for="confirm-email">Confirm email</label>
-                            <input id="confirm-email" name="confirm-email" type="email"  placeholder="example@domain.com" required>
+                            <label for="confirm-email">Confirm Email</label>
+                            <input id="confirm-email" name="confirm-email" type="email"  placeholder="example@domain.com" class="form-control" required>
                             <span id="CheckEmailConfirm"></span>
                         </li>
                     </ol>
                 </fieldset>
                 <fieldset id="address">
-                    <legend>Delivery address</legend>
+                    <legend class="top">Delivery Address</legend>
                     <ol>
                         <li>
                             <label for="street1">Street Address 1</label>
-                            <input type="text" id="street1" name="street1" placeholder="123 Main St">
+                            <input type="text" id="street1" name="street1" placeholder="123 Main St" class="form-control">
                         </li>
                         <li>
                             <label for="street2">Street Address 2</label>
-                            <input type="text" id="street2" name="street2" placeholder="Island Drive">
+                            <input type="text" id="street2" name="street2" placeholder="Island Drive" class="form-control">
                         </li>
                         <li>
                             <label for="city">City</label>
-                            <input type="text" id="city" name="city" placeholder="Ann Arbor">
+                            <input type="text" id="city" name="city" placeholder="Ann Arbor" class="form-control">
                         </li>
                         <li>
                             <label for="country">Country</label>
-                            <input id="country" name="country" type="text" required placeholder="USA">
+                            <input id="country" name="country" type="text" required placeholder="USA" class="form-control">
                         </li>
                         <li>
                             <label for="state">State</label>
-                            <input type="text" id="state" name="state" placeholder="MI">
+                            <input type="text" id="state" name="state" placeholder="MI" class="form-control">
                         </li>
                         <li>
                             <label for="zip">Zip</label>
-                            <input type="text" id="zip" name="zip" placeholder="48105">
+                            <input type="text" id="zip" name="zip" placeholder="48105" class="form-control">
                         </li>
                     </ol>
                 </fieldset>
 
                 <fieldset id="payment">
-                    <legend>Card details</legend>
+                    <legend class="top">Payment Details</legend>
                     <ol>
                         <li>
                             <fieldset>
-                                <legend>Card type</legend>
+                                <legend class="bottom">Select Card Type</legend>
                                 <ol>
                                     <li>
                                         <input id="visa" name="cardtype" type="radio" value="Visa" required>
@@ -103,30 +106,30 @@
                             </fieldset>
                         </li>
                         <li>
-                            <label for="cardnumber">Card number</label>
-                            <input id="cardnumber" name="cardnumber" type="text" required placeholder="000-0000-0000-0000">
+                            <label for="cardnumber">Card Number</label>
+                            <input id="cardnumber" name="cardnumber" type="text" required placeholder="0000-0000-0000-0000" class="form-control">
                         </li>
                         <li>
-                            <label for="cardname">Name on card</label>
-                            <input id="cardname" name="cardname" type="text" placeholder="Exact name as on the card" required>
+                            <label for="cardname">Name on Card</label>
+                            <input id="cardname" name="cardname" type="text" placeholder="Name as appears on card." class="form-control" required>
                         </li>
                         <li>
-                            <label for="cardexpiry">Expiry date</label>
-                            <input id="cardexpiry" name="cardexpiry" type="date" required>
+                            <label for="cardexpiry">Expiration Date</label>
+                            <input id="cardexpiry" name="cardexpiry" type="date" class="form-control" required>
                         </li>
                         <li>
-                            <label for="cardcvv">CSV Number</label>
-                            <input id="cardcvv" name="cardcvv" type="text" pattern="[0-9]{3}" placeholder="213" required>
+                            <label for="cardcvv">CVV Number</label>
+                            <input id="cardcvv" name="cardcvv" type="text" pattern="[0-9]{3}" placeholder="213" class="form-control" required>
                         </li>
                     </ol>
                 </fieldset>
 
                 <fieldset id="subscription">
-                    <legend>Newsletter</legend>
+                    <legend class="top">Newsletter Subscription Options</legend>
                     <ol>
                         <li>
                             <fieldset>
-                                <legend>Subscription Type</legend>
+                                <legend class="bottom">Subscription Type</legend>
                                 <ol class="substype">
                                     <li>
                                         <input id="subs1" name="subs" type="radio" value="Print" required>
@@ -145,7 +148,7 @@
                         </li>
                         <li>
                             <fieldset>
-                                <legend>Subscription Frequency</legend>
+                                <legend class="bottom">Subscription Frequency</legend>
                                 <ol class="substype">
                                     <li>
                                         <input id="freq1" name="freq" type="radio" value="Daily" required>
@@ -168,7 +171,7 @@
                         </li>
                         <li>
                             <fieldset>
-                                <legend>Preferred Topics</legend>
+                                <legend class="bottom">Topics of Interest</legend>
                                 <ol class="substype">
                                     <li>
                                         <input id="topic1" name="topic[]" type="checkbox" value="Networking">
@@ -188,7 +191,7 @@
                     </ol>
                 </fieldset>
 
-                <input type="submit" value="Subscribe" name="signup-button" id="signup-button">
+                <input type="submit" value="Subscribe" name="signup-button" class="btn btn-default" id="button">
 
             </form>
 

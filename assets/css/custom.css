@@ -29,3 +29,47 @@
 .img-full {
     min-width: 100%;
 }
+
+legend.top {
+    font-weight: bold;
+    padding-left: 4%;
+
+}
+
+legend.bottom {
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+#button {
+    margin-left: 5%
+}
+
+/*formatting for payment information*/
+form fieldset fieldset label {
+    background:none no-repeat left 50%;
+    line-height: 20px;
+    padding: 0 0 0 30px;
+    width: auto;
+}
+
+form fieldset ol li {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    list-style-type: none;
+}
+
+form fieldset fieldset .substype label {
+    padding: 0;
+}
+
+form label[for=visa] {
+    background-image: url("../images/visa.gif");
+}
+form label[for=amex] {
+    background-image: url("../images/amex.gif");
+}
+form label[for=mastercard] {
+    background-image: url("../images/mastercard.gif");
+}
