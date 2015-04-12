@@ -13,7 +13,7 @@
                     <small>Get out there and meet people</small>
                 </h2>
                 <br>
-                <img class="img-responsive img-border img-full1" src="<?php echo BASE_URL; ?>/assets/images/people.jpeg" alt="">
+                <img class="img-responsive img-border img-full1" src="<?php echo BASE_URL; ?>/assets/images/people.jpeg" alt="people on train">
                 <br>
                  <div class="row">
                     <div class="box">
@@ -96,7 +96,7 @@
                 <small>Know how to represent yourself</small>
             </h2>
             <br>
-            <img class="img-responsive img-border img-full1" src="<?php echo BASE_URL; ?>/assets/images/tools.jpeg" alt="">
+            <img class="img-responsive img-border img-full1" src="<?php echo BASE_URL; ?>/assets/images/tools.jpeg" alt="computer and iPad">
                 <br>
              <div class="row">
                 <div class="box">
@@ -166,7 +166,7 @@
             <small>Get prepared, get confident</small>
         </h2>
         <br>
-        <img class="img-responsive img-border img-full1" src="<?php echo BASE_URL; ?>/assets/images/confidence.jpeg" alt="">
+        <img class="img-responsive img-border img-full1" src="<?php echo BASE_URL; ?>/assets/images/confidence.jpeg" alt="person overlooking mountain">
                 <br>
          <div class="row">
             <div class="box">
