@@ -21,21 +21,22 @@
             </div>
             <div class="col-md-4">
                 <p>Phone:
-                    <strong>123.456.7890</strong>
+                    <strong>(734) 764-0206</strong>
                 </p>
                 <p>Email:
-                    <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                    <strong><a href="mailto:SI539Winter15@umich.com">SI539Winter15@umich.com</a></strong>
                 </p>
                 <p>Address:
-                    <strong>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</strong>
+                    <strong>North Quadrangle
+                        <br>105 S State St, Ann Arbor, MI 48109</strong>
+
                 </p>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
 
-    <div class="row">
+<!--     <div class="row">
         <div class="box">
             <div class="col-lg-12">
                 <hr>
@@ -43,7 +44,7 @@
                     <strong>form</strong>
                 </h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
+                <p>Your feedback is important to us!<br> Feel free to leave us a message with your suggestions and considerations!</p>
                 <form role="form">
                     <div class="row">
                         <div class="form-group col-lg-4">
@@ -71,7 +72,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </div>
 <!-- /.container -->
