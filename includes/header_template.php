@@ -1,7 +1,7 @@
 <?php
 
 //$url = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
-define('BASE_URL', 'http://localhost/539/group/project');
+define('BASE_URL', 'http://localhost/SI539/proj/539group/');
 
 //if (BASE_URL != $url) {
 //
