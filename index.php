@@ -22,19 +22,19 @@
                         <div class="item active">
                             <a href="http://google.com" target="_blank">
                                 <img class="img-responsive img-full" src="assets/images/slide1.jpg" alt="">
-                                <p class="slidercontent text-center">This is Link1</p>
+                                <p class="slidercontent text-center"></p>
                             </a>
                         </div>
                         <div class="item">
                             <a href="http://duckduckgo.com" target="_blank">
                                 <img class="img-responsive img-full" src="assets/images/slide2.jpg" alt="">
-                                <p class="slidercontent text-center">This is Link2</p>
+                                <p class="slidercontent text-center"></p>
                             </a>
                         </div>
                         <div class="item">
                             <a href="http://bing.com" target="_blank">
                                 <img class="img-responsive img-full" src="assets/images/slide3.jpg" alt="">
-                                <p class="slidercontent text-center">This is Link3</p>
+                                <p class="slidercontent text-center"></p>
                             </a>
                         </div>
                     </div>
@@ -67,17 +67,17 @@
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/networking.jpeg" alt="Networking">
                 <h3>Networking
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/onlinebranding.jpeg" alt="Online Branding">
                 <h3>Online Branding
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/interviewing.jpeg" alt="Interviewing">
                 <h3>Interviewing
 
                 </h3>
