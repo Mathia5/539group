@@ -47,10 +47,6 @@
                         <span class="icon-next"></span>
                     </a>
                 </div>
-                <h2 class="brand-before">
-                    <small>Welcome to</small>
-                </h2>
-                <h1 class="brand-name">Career Prep Pro</h1>
                 <hr class="tagline-divider">
                 <h2>
                     <small>By
@@ -72,20 +68,18 @@
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Networking
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Online Branding
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Interviewing
+
                 </h3>
             </div>
             <div class="clearfix"></div>
@@ -96,12 +90,10 @@
         <div class="box">
             <div class="col-lg-12">
                 <hr>
-                <h2 class="intro-text text-center">Beautiful boxes
-                    <strong>to showcase your content</strong>
-                </h2>
+                <h2 class="intro-text text-center">Your One-Stop Shop for Career Advice</h2>
                 <hr>
-                <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>Friends, family, career counselors, university workshops, magazines, Google searches -- it seems everyone is giving career advice everywhere nowadays. We are drowning in information overload, and much of that information is ineffective or repetitive.</p>
+                <p>So stop searching for the best career advice. Let Career Prep Pro find the best content for you. Sign up for our email newsletter and receive daily, weekly, or monthly tips in your inbox.</p>
             </div>
         </div>
     </div>
