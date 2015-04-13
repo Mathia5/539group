@@ -101,7 +101,7 @@ form label[for=mastercard] {
     position: fixed;
     width: 40px;
 }
-#flipsticky span{
+#flipsticky span {
     filter: none;
     font-size: 17px;
     letter-spacing: 2px;
@@ -109,5 +109,9 @@ form label[for=mastercard] {
     top: 40px;
     transform: rotate(-90deg);
     white-space: nowrap;
-    right:-25px;
+    right: -25px;
+}
+
+iframe {
+    border: none;
 }

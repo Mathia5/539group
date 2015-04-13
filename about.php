@@ -1,7 +1,7 @@
 <?php
   $fName = basename(__FILE__);
   $pageTitle = 'About';
-  include 'header_template.php';
+  include 'includes/header_template.php';
  ?>
 
 <div class="container">
@@ -16,7 +16,7 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                <img class="img-responsive img-border-left" src="<?php echo BASE_URL; ?>/assets/images/slide-2.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <p>This is a great place to introduce your company or project and describe what you do.</p>
@@ -62,5 +62,5 @@
 <!-- /.container -->
 
 <?php
-    include 'footer_template.php'
+    include 'includes/footer_template.php'
 ?>
