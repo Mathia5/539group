@@ -2,6 +2,10 @@
     max-width: 960px;
 }
 
+nav .container {
+    max-width: 100%;
+}
+
 @-moz-document url-prefix() {
     fieldset { display: table-cell; }
 }
@@ -72,4 +76,38 @@ form label[for=amex] {
 }
 form label[for=mastercard] {
     background-image: url("../images/mastercard.gif");
+}
+
+.card {
+    height: 290px;
+}
+
+#panelsticky {
+    padding: 50px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+}
+#panelsticky.show {
+    display: block;
+}
+#flipsticky {
+    background-color: grey;
+    border-radius: 0 5px 5px 0;
+    bottom: 100px;
+    color: white;
+    height: 105px;
+    left: 0;
+    position: fixed;
+    width: 40px;
+}
+#flipsticky span{
+    filter: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    right:-25px;
 }

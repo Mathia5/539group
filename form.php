@@ -1,6 +1,6 @@
 <?php
     $fName = basename(__FILE__);
-    $pageTitle = 'Career Prep Pro';
+    $pageTitle = 'Subscribe For Newsletters';
     include 'includes/header_template.php';
 ?>
 

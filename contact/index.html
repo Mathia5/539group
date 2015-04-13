@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Feedback Form</title>
+        <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+        <div id="feedbackform">
+            <div class="wrap">
+                <h3>Submit Feedback</h3>
+                <form action="send.php" method="post" id="feedback" name="feedback">
+                    <label for="fd-email">Email</label>
+                    <input type="email" name="fd-email" id="fd-email" value="" placeholder="Insert email here" class="clear" />
+                    <label for="fd-subject">Add a subject</label>
+                    <input type="text" name="fd-subject" id="fd-subject" value="" placeholder="Add a subject" class="clear"/>
+                    <label for="fd-feedback">Add your feedback</label>
+                    <textarea name="fd-feedback" id="fd-feedback" value="" placeholder="Add your Feedback" rows="5" class="clear"/></textarea>
+
+                    <input type="submit" value="Submit Feedback" name="fd-button" id="fd-button">
+                </form>
+                <div id="response"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="assets/js/lib.js"></script>
+
+    </body>
+</html>

@@ -105,10 +105,20 @@
                             <div class="panel-heading">
                                 <h4><a href="https://www.linkedin.com/pulse/20140917045901-24454816-the-5-biggest-mistakes-i-see-on-resumes-and-how-to-correct-them?">The Biggest Resume Mistakes</a></h4>
                             </div>
+
                             <div class="panel-body">
-                                <p>It's no secret that it's worth spending a lot of time on your resume, but what's the best strategy for building a resume that is both
-                                    efficient and attractive? Here are some common mistakes that Google's SVP of HR recommends avoiding.</p>
+                                    <div class="card">
+                                      <div class="front">
+                                        <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/content/40.jpg" alt="computer and iPad">
+                                      </div>
+                                      <div class="back">
+                                        It's no secret that it's worth spending a lot of time on your resume, but what's the best strategy for building a resume that is both
+                                        efficient and attractive? Here are some common mistakes that Google's SVP of HR recommends avoiding. Boom Shiva
+                                      </div>
+                                    </div>
+
                             </div>
+
                         </div>
                     </div>
                     <div class="col-md-4">

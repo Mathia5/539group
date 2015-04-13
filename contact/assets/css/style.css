@@ -1,0 +1,111 @@
+body {
+    font-size: 62.5%;
+    background-color: #64c6af;
+}
+
+#feedbackform {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    max-width: 780px;
+    min-width: 320px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+#feedbackform label {
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#feedbackform .wrap {
+    padding: 0;
+}
+
+#feedbackform h3 {
+    display: block;
+    font-size:26px;
+    font-weight:400;
+    line-height:1.2;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom:5px;
+    margin: 0 auto 20px auto;
+    border-bottom:1px solid #fff;
+}
+
+#feedbackform p {
+    font-size:14px;
+    line-height:26px;
+    margin-bottom:25px;
+    color:#fff;
+}
+
+#feedbackform input, #feedbackform textarea, #feedbackform select, #reload {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight:500;
+    display: block;
+    width:100%;
+    background:#fff;
+    color:#000;
+    padding:5px;
+    margin: 0 auto 12px auto;
+    border:2px solid #fff;
+    outline:0;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#feedbackform input:focus, #feedbackform textarea:focus, #feedbackform select:focus {
+    border:2px solid #ddd;
+}
+
+#feedbackform input[type="submit"], #reload {
+    background:#f77156;
+    color:#fff;
+    width:30%;
+    padding:13px;
+    cursor: pointer;
+    margin-bottom:0;
+    border:none;
+}
+
+#feedbackform input[type="submit"]:hover, #reload:hover {
+    background:#F8CA4D;
+    color:#444;
+}
+
+#reload {
+    margin-top: 50px;
+}
+
+#feedbackform textarea {
+    resize: none;
+}
+
+#feedbackform #response {
+    color: #fff;
+    font-size: 1.4em;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 320px;
+}
+
+#feedbackform #response p {
+    margin: 0
+}
+
+#feedbackform .loading {
+    background: url("../images/loading.gif") no-repeat center 20px;
+}

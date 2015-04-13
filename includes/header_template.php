@@ -100,7 +100,16 @@ define('BASE_URL', 'http://localhost/539/group/project');
                     }
                     ?>
                     >
-                        <a href="<?php echo BASE_URL; ?>/form.php">Form</a>
+                        <a href="<?php echo BASE_URL; ?>/form.php">Subscribe</a>
+                    </li>
+                     <li
+                    <?php
+                    if ($fName == "events.php"){
+                        echo "class = \"active\"";
+                    }
+                    ?>
+                    >
+                        <a href="<?php echo BASE_URL; ?>/events.php">Events</a>
                     </li>
                     <li
                     <?php
