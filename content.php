@@ -219,6 +219,7 @@
         </div>
     </div>
 </div>
+</div>
 <!-- /.container -->
 
 <?php
