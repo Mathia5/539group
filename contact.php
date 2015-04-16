@@ -35,6 +35,44 @@
         </div>
     </div>
 
+    <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Our
+                        <strong>Team</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/mathias.jpg" alt="Mathias">
+                    <h3>Mathias Arkayin
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/nishan.jpg" alt="Nishan">
+                    <h3>Nishan Bose
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/yuan.jpg" alt="Yuan">
+                    <h3>Yuan Chen
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/peter.jpg" alt="Peter">
+                    <h3>Peter Vlahakis
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/boxian.jpg" alt="Boxian">
+                    <h3>Boxian Wei
+                    </h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
 <!--     <div class="row">
         <div class="box">
             <div class="col-lg-12">

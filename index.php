@@ -67,17 +67,17 @@
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/networking.jpeg" alt="Networking">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/networking.jpg" alt="Networking">
                 <h3>Networking
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/onlinebranding.jpeg" alt="Online Branding">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/onlinebranding.jpg" alt="Online Branding">
                 <h3>Online Branding
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/interviewing.jpeg" alt="Interviewing">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/interviewing.jpg" alt="Interviewing">
                 <h3>Interviewing
 
                 </h3>
