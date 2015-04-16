@@ -24,11 +24,10 @@
                     <strong>(734) 764-0206</strong>
                 </p>
                 <p>Email:
-                    <strong><a href="mailto:SI539Winter15@umich.com">SI539Winter15@umich.com</a></strong>
+                    <strong><a href="mailto:SI539Winter15@umich.com">SI539Winter15@umich.edu</a></strong>
                 </p>
-                <p>Address:
-                    <strong>North Quadrangle
-                        <br>105 S State St, Ann Arbor, MI 48109</strong>
+                <p>Address:<br>
+                    <strong>North Quadrangle<br> 105 S State St<br> Ann Arbor, MI, 48109</strong>
 
                 </p>
             </div>
