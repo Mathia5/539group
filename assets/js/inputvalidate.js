@@ -23,7 +23,8 @@ function yourDetailCheck(){
     }   else if(nmRex.test(nm)!=true)
     {
         document.getElementById("CheckFirstName").innerHTML="&nbsp&nbsp&nbsp&nbsp Invalid first name";
-
+        document.getElementById("CheckFirstName").style.color="red";
+        document.getElementById("CheckFirstName").style.fontWeight="bold";
     }else
     {
         detail = detail + 1;
@@ -38,6 +39,8 @@ function yourDetailCheck(){
     }else if(lnmRex.test(lnm)!=true)
     {
         document.getElementById("CheckLastName").innerHTML="&nbsp&nbsp&nbsp&nbsp Invalid last name";
+        document.getElementById("CheckLastName").style.color="red";
+        document.getElementById("CheckLastName").style.fontWeight="bold";
 
     }else
     {
@@ -53,6 +56,8 @@ function yourDetailCheck(){
     }else if(phRex.test(ph)!=true)
     {
         document.getElementById("CheckPhone").innerHTML="&nbsp&nbsp&nbsp&nbsp Invalid Phone";
+        document.getElementById("CheckPhone").style.color="red";
+        document.getElementById("CheckPhone").style.fontWeight="bold";
 
     }else
     {
@@ -68,11 +73,13 @@ function yourDetailCheck(){
     }else if(emRex.test(em1)!=true)
     {
         document.getElementById("CheckEmail").innerHTML="&nbsp&nbsp&nbsp&nbsp Invalid Email";
+        document.getElementById("CheckEmail").style.color="red";
+        document.getElementById("CheckEmail").style.fontWeight="bold";
 
     }else
     {
         detail = detail + 1
-        document.getElementById("CheckEmail").innerHTML.innerHTML="";
+        document.getElementById("CheckEmail").innerHTML="";
     }
 
     // email confirm check
@@ -82,6 +89,8 @@ function yourDetailCheck(){
     }else if(em1!==em2)
     {
         document.getElementById("CheckEmailConfirm").innerHTML="&nbsp&nbsp&nbsp&nbsp Email don't match";
+        document.getElementById("CheckEmailConfirm").style.color="red";
+        document.getElementById("CheckEmailConfirm").style.fontWeight="bold";
     }else
     {
         detail = detail + 1;
