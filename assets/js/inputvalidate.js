@@ -25,6 +25,7 @@ function yourDetailCheck(){
         document.getElementById("CheckFirstName").innerHTML="&nbsp&nbsp&nbsp&nbsp Invalid first name";
         document.getElementById("CheckFirstName").style.color="red";
         document.getElementById("CheckFirstName").style.fontWeight="bold";
+        document.getElementById("firstname").focus();
     }else
     {
         detail = detail + 1;
