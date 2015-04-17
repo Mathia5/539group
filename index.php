@@ -20,21 +20,21 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <a href="http://google.com" target="_blank">
-                                <img class="img-responsive img-full" src="assets/images/slide1.jpg" alt="">
-                                <p class="slidercontent text-center"></p>
+                            <a href="https://www.themuse.com/advice/the-absolute-best-questions-to-ask-at-your-interview" target="_blank">
+                                <img class="img-responsive img-full" src="assets/images/slide1.jpg" alt="Best questions to ask in an interview">
+                                <p class="slidercontent text-center">The Absolute Best Questions to Ask at Your Interview</p>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://duckduckgo.com" target="_blank">
-                                <img class="img-responsive img-full" src="assets/images/slide2.jpg" alt="">
-                                <p class="slidercontent text-center"></p>
+                            <a href="http://www.huffingtonpost.com/mattan-griffel/email-etiquette_b_4849649.html" target="_blank">
+                                <img class="img-responsive img-full" src="assets/images/slide2.jpg" alt="Getting a busy person to respond to an email">
+                                <p class="slidercontent text-center">How to Get a Busy Person to Respond to Your Email</p>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://bing.com" target="_blank">
-                                <img class="img-responsive img-full" src="assets/images/slide3.jpg" alt="">
-                                <p class="slidercontent text-center"></p>
+                            <a href="https://medium.com/@davefontenot/mgwu-getting-a-startup-job-internship-57c8762d6d81" target="_blank">
+                                <img class="img-responsive img-full" src="assets/images/slide3.jpg" alt="Getting a startup job or internship">
+                                <p class="slidercontent text-center">Getting a Startup Job/Internship</p>
                             </a>
                         </div>
                     </div>
@@ -61,23 +61,22 @@
         <div class="box">
             <div class="col-lg-12">
                 <hr>
-                <h2 class="intro-text text-center">Select
-                    <strong>Track</strong>
+                <h2 class="intro-text text-center">Topics
                 </h2>
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/networking.jpeg" alt="Networking">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/networking.jpg" alt="Networking">
                 <h3>Networking
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/onlinebranding.jpeg" alt="Online Branding">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/onlinebranding.jpg" alt="Online Branding">
                 <h3>Online Branding
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/interviewing.jpeg" alt="Interviewing">
+                <img class="img-responsive" src="<?php echo BASE_URL; ?>/assets/images/interviewing.jpg" alt="Interviewing">
                 <h3>Interviewing
 
                 </h3>

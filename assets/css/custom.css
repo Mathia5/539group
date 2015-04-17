@@ -82,6 +82,10 @@ form label[for=mastercard] {
     height: 290px;
 }
 
+.panel {
+    max-height: 300px;
+}
+
 #panelsticky {
     padding: 50px;
     display: none;
